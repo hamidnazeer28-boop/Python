@@ -1,0 +1,43 @@
+🎓 Python Grade Calculator 🎓
+A handy Python script designed to automatically assign a letter grade based on a student's marks. It's a simple and effective tool for quick grade evaluation! 📝
+
+🎯 Purpose of the Script
+This project provides a Python function that takes a student's numerical score as input and instantly outputs the corresponding letter grade. The goal is to automate the simple task of grading, making it faster and less prone to manual error. ✨
+
+📈 The Grading Scale
+The script determines the final grade by checking which range the input marks fall into. Here is a breakdown of the grading logic:
+
+Marks Range
+
+Grade
+
+82 - 90
+
+A+
+
+72 - 79
+
+A
+
+62 - 69
+
+B+
+
+52 - 59
+
+B
+
+Note: 🤔 This script is designed for the specific ranges above. It currently does not assign a grade for scores of 91 or higher, 51 or lower, or exact boundary numbers like 81, 70, etc.
+
+🚀 How to Use It
+Using the script is incredibly simple. Just run the file, and it will execute a pre-written example. To test different scores, you can modify the number passed into the grade() function call within the script.
+
+Example 1: Getting a "B+"
+If you provide the function with a score of 65, it will fall into the "B+" category.
+
+Expected Output:
+
+grade=B+
+
+Example 2: Getting an "A"
+If you provide the function with a score of 75, it will fall into the "A" category.
